@@ -1,18 +1,17 @@
-function Parentform() {
+function Syntxt(popo) {
     return (
-        <form className="formm">
-            <h2>perent</h2>
-            <lable>perent name</lable>
-            <input />
-            <lable>Relation</lable>
-            <input />
-            <label>contact</label>
-            <input type={'number'} />
-            <label>work</label>
-            <input type={'text'} />
-            <input type={'submit'} />
-        </form>
+        <>
+            <div className="row">
+                <div className="lable-box">
+                    <lable>{popo.name}</lable>
+                </div>
+                <div className="input-box">
+                    <input type={popo.type} />
+                </div>
+            </div>
+        </>
+
     );
 }
 
-export default Parentform;
+export default Syntxt;

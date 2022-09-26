@@ -1,6 +1,5 @@
 import logo from './logo.svg';
-import Parentform from './component/parent';
-import Prosonl from './component/form';
+import Form from './component/form';
 import './App.css';
 import './style.css';
 
@@ -8,8 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Prosonl></Prosonl>
-        <Parentform></Parentform>
+        <Form></Form>
       </header>
     </div>
   );

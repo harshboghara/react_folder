@@ -1,3 +1,46 @@
 .bg{
     background-color: aqua;
 }
+
+*{
+    color: black;
+    text-align: center;
+    margin: 0%;
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lable-box{
+    width: 150px;
+    text-align: left;
+    align-self: center;
+}
+
+.input-box{
+    width: 150px;
+    padding: 4px 0;
+}
+
+input{
+    padding: 8px 0;
+    text-align: left;
+}
+
+.sec .w-100{
+    margin: 20px 0;    
+    display: inline-block;
+    border-top: 1px solid black;
+    padding: 15px 30px 15px 15px;
+    box-shadow: 0 10px 15px rgba(161, 161, 161, 0.299);
+}
+
+.submit{
+    background-color: black;
+    color: white;
+    padding: 10px 10px ;
+}
